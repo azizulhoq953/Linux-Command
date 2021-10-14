@@ -5,4 +5,4 @@ Command Practice
 
 *  Firewall Zone check:
 
->```firewall-cmd --zone-public --list-all```
+>```{{firewall-cmd --zone-public --list-all}}```

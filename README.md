@@ -21,6 +21,7 @@ Command Practice
  
  ** check Restart service working:
  
+ 
  ``firewall-cmd --get-active-zone``
  
  

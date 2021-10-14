@@ -7,7 +7,7 @@ Command Practice
 
 ``firewall-cmd --zone-public --list-all``
 
-*Firewall Zone Change:
+* Firewall Zone Change:
 
 ``firewall-cmd --zone=home --change-interface=eno1``
 

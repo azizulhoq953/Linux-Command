@@ -1,4 +1,8 @@
 # Linux-Command
 Command Practice
-ls 
-whoami
+
+## Lnux Network System-command
+
+*  Firewall Zone check:
+
+``firewall-cmd --zone-public --list-all

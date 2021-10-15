@@ -21,7 +21,20 @@ Command Practice
  
  * check Restart service working:
  
- 
  ``firewall-cmd --get-active-zone``
+ 
+ * firewall default zone set
+ 
+ ``firewall-cmd --set-default-zone=home``
+ 
+ * Firewall all service show
+ 
+ ``firewall-cmd --get-services``
+ 
+ * public zone http service add:
+ ``firewall-cmd --parmanent --zone=public --add-service=http``
+ 
+ 
+ 
  
  

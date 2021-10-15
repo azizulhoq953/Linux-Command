@@ -31,7 +31,7 @@ Command Practice
  
  ``firewall-cmd --get-services``
  
- * public zone http service add then Must be Reload Ensure:
+ * public zone http service add then Ensure Must be Reload:
  
  ``firewall-cmd --parmanent --zone=public --add-service=http``
  

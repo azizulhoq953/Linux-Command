@@ -39,5 +39,9 @@ Command Practice
  
  ``firewall-cmd --parmanent --zone=public --remove-service=http``
  
+* Firewall Run status check:
+
+``systemctl status firewalld.service``
+ 
  
  

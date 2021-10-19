@@ -53,13 +53,17 @@ Command Practice
 
 * Firewall Port Add:
 
-``firewall-cmd --parmanent --zone=public --add-port=8000``
+``firewall-cmd --parmanent --zone=public --add-port=8000/tcp``
 
 * Then Reload
 
 * Check Infornation add:
 
 ``firewall-cmd --list-all``
+
+* Remove Port:
+
+``firewall-cmd --parmanent --zone=public --remove-port=8000/tcp
 
  
  

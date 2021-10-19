@@ -42,6 +42,15 @@ Command Practice
 * Firewall Run status check:
 
 ``systemctl status firewalld.service``
+
+* First Time Firewall Run Good Practice Enable System:
+
+``systemctl enable firewalld``
+
+* and Then service Start:
+
+``systemctl start firewalld``
+
  
  
  

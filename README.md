@@ -51,6 +51,10 @@ Command Practice
 
 ``systemctl start firewalld``
 
+* Firewall Port Add:
+
+``firewall-cmd --parmanent --zone=public --add-port=8000``
+
  
  
  

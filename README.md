@@ -55,6 +55,12 @@ Command Practice
 
 ``firewall-cmd --parmanent --zone=public --add-port=8000``
 
+* Then Reload
+
+* Check Infornation add:
+
+``firewall-cmd --list-all``
+
  
  
  

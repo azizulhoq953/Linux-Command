@@ -70,6 +70,8 @@ Command Practice
 ``firewall-cmd --parmanent --zone=public --add-source=192.165.13.14`` 
 * and Reload
 
+* Rich rule is particular ip address and particular service allow Ex: ssh,http other traffic will be not allow all service block in Firewall: 
+
 
  
  

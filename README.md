@@ -72,7 +72,15 @@ Command Practice
 
 * Rich rule is particular ip address and particular service allow Ex: ssh,http other traffic will be not allow all service block in Firewall: 
 
+``rule family="ipv4" source address="10.0.0.0/24" destination address="192.168.0.10/32" port port="8080-8090" protocol="tcp" accept``
 
+* Here we create a rich rule to reject any traffic that comes from 192.168.0.10/24:
+
+``firewall-cmd --permanent --zone=testing --add-rich-rule='rule family=ipv4 source address=192.168.0.10/24 reject'``
+
+* Rich rules can also be used to rate limit traffic, here we limit incoming SSH connections to 10 per minute:
+
+``firewall-cmd --permanent --add-rich-rule='rule service name=ssh limit value=10/m accept``
  
  
  

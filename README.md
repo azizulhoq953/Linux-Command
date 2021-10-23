@@ -65,6 +65,11 @@ Command Practice
 
 ``firewall-cmd --parmanent --zone=public --remove-port=8000/tcp
 
+* firewall ip address add all Access Ip Traffic allow:
+
+``firewall-cmd --parmanent --zone=public --add-source=192.165.13.14``
+
+
  
  
  
